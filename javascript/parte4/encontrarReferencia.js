@@ -9,3 +9,12 @@ const marca = marcas.find(function(marca){
 
 
 console.log(marca);
+// arrow functions
+
+
+console.log(marcas.find((marca)=> marca.nome === 'a'));
+
+
+
+
+
